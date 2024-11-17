@@ -1,0 +1,16 @@
+package edu.hebeu.partnermatching.model.domain.request;
+
+import lombok.Data;
+
+import java.io.Serializable;
+
+@Data
+public class TeamQuitRequest implements Serializable {
+
+    private static final long serialVersionUID = -2656374770011610424L;
+    /**
+     * 队伍id
+     */
+    private Long id;
+
+}
