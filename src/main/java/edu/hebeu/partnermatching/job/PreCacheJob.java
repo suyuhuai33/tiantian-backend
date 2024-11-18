@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import edu.hebeu.partnermatching.model.domain.User;
 import edu.hebeu.partnermatching.service.UserService;
+import edu.hebeu.partnermatching.service.UserTeamService;
 import lombok.extern.slf4j.Slf4j;
 import org.redisson.api.RLock;
 import org.redisson.api.RedissonClient;
